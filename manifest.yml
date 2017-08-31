@@ -1,0 +1,8 @@
+applications:
+- name: demomrbmsb
+  timeout: 180
+  instances: 1
+  path: ./target/demomrbmsb.zip
+  memory: 512M
+  buildpack: liberty-for-java
+  random-route: true
